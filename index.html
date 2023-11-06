@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+    <h1 class="text-center fs-2 my-3">javascript project</h1>
+    <div class="container shadow-sm bg-body-tertiary rounded p-3 my-5">
+    <h3 class=" text-center">Result Area</h3>
+    <div class="d-flex justify-content-center">
+    <ol id="ol">
+        <li>Hello</li>
+    </ol>
+    </div>
+    
+    </div>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gap-2 bg-warning mb-2">
+            <div class="col">
+                <img class="img-fluid" src="images/triangle.png" alt="">
+            </div>
+            <div>
+                <h5>Triangle</h5>
+                <p>Area (A)=0.5 *<span id="tbhumi">b</span> * <span id="tuccota">h</span></p>
+                <div class="my-3">
+                    <input class="w-25 m-2 " type="number" id="triInpuBhumi"><span>cm</span>
+                    <input class="w-25 m-2" type="number" id="triInpuUcota"><span>cm</span>
+                </div>
+                <button id="triangleButton" class="btn btn-success">Calculate</button>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gap-2 bg-danger-subtle mb-2">
+            <div class="col">
+                <img class="img-fluid" src="images/Rectangle.png" alt="">
+            </div>
+            <div>
+                <h5>Rectangle</h5>
+                <p>Area (A)=<span id="rbhumi">b</span> * <span id="ruccota">h</span></p>
+                <div class="my-3">
+                    <input class="w-25 m-2 " type="number" id="recInpuBhumi"><span>cm</span>
+                    <input class="w-25 m-2" type="number" id="recInpuUcota"><span>cm</span>
+                </div>
+                <button id="recButton" class="btn btn-success">Calculate</button>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gap-2 bg-warning-subtle mb-2">
+            <div class="col">
+                <img class="img-fluid" src="images/square.png" alt="">
+            </div>
+            <div>
+                <h5>Square</h5>
+                <p>Area (A)=<span id="sbhumi">b</span> * <span id="sbhumi">b</span></p>
+                <div class="my-3">
+                    <input class="w-25 m-2 " type="number" id="sqrInpuBhumi"><span>cm</span>
+                    
+                </div>
+                <button id="squrButton" class="btn btn-success">Calculate</button>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gap-2 bg-info-subtle mb-2">
+            <div class="col">
+                <img class="img-fluid" src="images/circle.jpg" alt="">
+            </div>
+            <div>
+                <h5>Circle</h5>
+                <p>Area (A)=3.1416 * <span id="bhumi">r</span> *  <span id="bhumi">r</span>
+                <div class="my-3">
+                    <input class="w-25 m-2 " type="number" id="cirInpuRadius"><span>cm</span>
+                    
+                </div>
+                <button class="btn btn-success">Calculate</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
